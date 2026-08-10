@@ -2,6 +2,19 @@
 
 Минимальный пример сборки для [NIO Launcher](https://github.com/n1orio/nio-launcher).
 
+## Ссылка-приглашение
+
+Одна универсальная ссылка для всех игроков (работает для любой сборки, подставьте свой адрес вместо примера):
+
+```
+https://n1orio.github.io/nio-launcher/?url=https%3A%2F%2Fgithub.com%2Fn1orio%2Fnio-pack-example&name=Example%20Pack
+```
+
+- у кого установлен NIO Launcher — он откроется и добавит сборку автоматически;
+- у кого нет — страница предложит скачать лаунчер.
+
+Такую ссылку можно вставлять в README, описания релизов и Discord.
+
 ## Как подключить
 
 В лаунчере: вкладка «Разработчикам» → «Добавить сборку» → вставьте ссылку на этот репозиторий:
@@ -15,16 +28,6 @@ https://github.com/n1orio/nio-pack-example
 ```
 https://github.com/n1orio/nio-pack-example/releases/latest/download/example-pack.mrpack
 ```
-
-## Ссылка-приглашение
-
-Одна ссылка для всех игроков: у кого установлен NIO Launcher — он откроется и добавит сборку автоматически, у кого нет — страница предложит скачать лаунчер:
-
-```
-https://n1orio.github.io/nio-pack-example/
-```
-
-Раздача работает через deep link `niol://add-pack?url=<encoded URL>`. Такую ссылку можно вставлять в README, описания релизов и Discord.
 
 ## Формат
 
