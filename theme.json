@@ -1,0 +1,13 @@
+{
+  "bg": "#0a140d",
+  "panel": "#10241a",
+  "input": "#16301f",
+  "border": "#1f4030",
+  "tx": "#d7ebe0",
+  "txStrong": "#f0faf5",
+  "txMuted": "#8fb8a4",
+  "accent": "#4ade80",
+  "accentStrong": "#86efac",
+  "accentHover": "#22c55e",
+  "accentDeep": "#16a34a"
+}
