@@ -38,6 +38,16 @@ https://github.com/n1orio/nio-pack-example
 https://github.com/n1orio/nio-pack-example/releases/latest/download/example-pack.mrpack
 ```
 
+## Ссылка-приглашение (deep link)
+
+Если у игрока установлен NIO Launcher, переход по ссылке ниже откроет лаунчер и автоматически подключит эту сборку:
+
+```
+niol://add-pack?url=https%3A%2F%2Fgithub.com%2Fn1orio%2Fnio-pack-example
+```
+
+Такую ссылку можно вставлять в README, описания релизов и Discord.
+
 ## Как собрать свой модпак
 
 1. Prism Launcher: File → Export Instance → **Modrinth pack (.mrpack)**.
