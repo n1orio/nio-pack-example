@@ -84,14 +84,22 @@ https://github.com/n1orio/nio-pack-example/releases/latest/download/example-pack
 
 ### socials.json (необязательно)
 
-Ссылки на соцсети в шапке сборки (только `https://`, до 8 ссылок):
+Ссылки на соцсети в шапке сборки (только `https://`, до 8 ссылок). Цвет кнопки задаётся
+через `color` (`#rrggbb`) — без него используется акцент темы лаунчера:
 
 ```json
-{
-  "discord": "https://discord.gg/example",
-  "telegram": "https://t.me/example",
-  "youtube": "https://youtube.com/@example"
-}
+[
+  { "name": "discord", "url": "https://discord.gg/example", "color": "#5865F2" },
+  { "name": "telegram", "url": "https://t.me/example", "color": "#229ED9" },
+  { "name": "youtube", "url": "https://youtube.com/@example", "color": "#FF0000" },
+  { "name": "website", "url": "https://example.com" }
+]
+```
+
+Допустим и короткий объектный формат — тогда цвет не настраивается:
+
+```json
+{ "discord": "https://discord.gg/example", "telegram": "https://t.me/example" }
 ```
 
 ### theme.json (необязательно)

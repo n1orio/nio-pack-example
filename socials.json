@@ -1,6 +1,6 @@
-{
-  "discord": "https://discord.gg/example",
-  "telegram": "https://t.me/example",
-  "youtube": "https://youtube.com/@example",
-  "website": "https://example.com"
-}
+[
+  { "name": "discord", "url": "https://discord.gg/example", "color": "#5865F2" },
+  { "name": "telegram", "url": "https://t.me/example", "color": "#229ED9" },
+  { "name": "youtube", "url": "https://youtube.com/@example", "color": "#FF0000" },
+  { "name": "website", "url": "https://example.com" }
+]
