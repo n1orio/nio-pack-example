@@ -1,7 +1,8 @@
 {
   "name": "Example Pack",
   "id": "example-pack",
-  "version": "1.0.0",
-  "description": "Минимальная сборка-пример для NIO Launcher",
-  "author": "NIO"
+  "version": "1.1.0",
+  "description": "Сборка-пример для NIO Launcher: демонстрация всех возможностей",
+  "author": "NIO",
+  "minRam": 4096
 }

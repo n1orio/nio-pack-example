@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Example Survival",
+    "ip": "play.example.com",
+    "desc": "Демонстрационный сервер выживания без порта"
+  },
+  {
+    "name": "Example SkyBlock",
+    "ip": "sky.example.com",
+    "port": 25570,
+    "desc": "Демонстрационный сервер со своим портом"
+  }
+]
